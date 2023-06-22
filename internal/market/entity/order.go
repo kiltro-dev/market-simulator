@@ -12,7 +12,14 @@ type Order struct {
 	Transactions  []*Transaction
 }
 
-func NewOrder(orderID string, investor *Investor, asset *Asset, shares int, price float64, orderType string) *Order {
+func NewOrder(
+	orderID string,
+	investor *Investor,
+	asset *Asset,
+	shares int,
+	price float64,
+	orderType string,
+) *Order {
 	return &Order{
 		ID:            orderID,
 		Investor:      investor,
