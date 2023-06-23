@@ -1,4 +1,4 @@
-module github.com/kiltro-dev/market-simulator/go
+module github.com/kiltro-dev/market-simulator
 
 go 1.20
 

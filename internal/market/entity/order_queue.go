@@ -33,7 +33,7 @@ func (oq *OrderQueue) Pop() interface{} {
 	return item
 }
 
-func NeworderQueue() *OrderQueue {
+func NewOrderQueue() *OrderQueue {
 	return &OrderQueue{
 		Orders: []*Order{},
 	}
